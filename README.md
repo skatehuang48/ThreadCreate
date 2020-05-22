@@ -1,0 +1,6 @@
+# ThreadCreate
+创建线程的四种方式
+1，继承Thread类
+2，实现Runnable接口
+3，采用Callable接口和FutureTask创建能抛出异常和有返回值的线程
+4，线程池创建创建一般采用ThreadExcutor创建而不用自带的Excutor创建默认的线程池
